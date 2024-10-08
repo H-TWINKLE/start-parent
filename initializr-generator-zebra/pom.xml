@@ -34,6 +34,7 @@
         <dependency>
             <groupId>io.spring.initializr</groupId>
             <artifactId>initializr-generator-spring</artifactId>
+            <version>0.12.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>

@@ -84,7 +84,6 @@
   "dependencies": {
     "@babel/runtime": "^7.13.17",
     "@douyinfe/semi-ui": "^2.19.0",
-    "reset-css": "^5.0.1",
     "body-scroll-lock": "^3.1.5",
     "file-saver": "^2.0.5",
     "hamburgers": "^1.1.3",
@@ -97,6 +96,7 @@
     "prismjs": "^1.24.0",
     "prop-types": "^15.7.2",
     "query-string": "^7.0.0",
+    "querystring-es3": "^0.2.1",
     "react": "^17.0.2",
     "react-body-classname": "^1.3.1",
     "react-copy-to-clipboard": "^5.0.3",
@@ -104,7 +104,8 @@
     "react-hotkeys": "^2.0.0",
     "react-markdown": "^6.0.0",
     "react-toastify": "^7.0.3",
-    "react-transition-group": "^4.4.1"
+    "react-transition-group": "^4.4.1",
+    "reset-css": "^5.0.1"
   },
   "prettier": {
     "endOfLine": "lf",

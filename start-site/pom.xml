@@ -54,6 +54,7 @@
         <dependency>
             <groupId>io.spring.initializr</groupId>
             <artifactId>initializr-generator-spring</artifactId>
+            <version>0.12.0</version>
         </dependency>
         <dependency>
             <groupId>io.spring.initializr</groupId>
@@ -114,10 +115,10 @@
     <build>
         <finalName>start-site</finalName>
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <groupId>io.spring.javaformat</groupId>
                 <artifactId>spring-javaformat-maven-plugin</artifactId>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -146,10 +147,10 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>pl.project13.maven</groupId>
                 <artifactId>git-commit-id-plugin</artifactId>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 
